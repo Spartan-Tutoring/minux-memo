@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Memo</string>
+    <string name="network_error"><strong>네트워크 연결 끊김</strong>\n연결 상태 확인 후 다시 이용해 주세요🙏</string>
+    <string name="dialog_base_check">확인</string>
+    <string name="dialog_base_cancel">취소</string>
+
+    <!--splash-->
+    <string name="splash_cd_logo_img">splash logo image</string>
+
+</resources>
