@@ -20,10 +20,10 @@ class BaseDialog(context: Context) {
         dialog.setContentView(R.layout.dialog_base)
         dialog.setCancelable(false)
 
-        tvTitle = dialog.findViewById<TextView>(R.id.dialog_wekit_v1_title_tv)
+        tvTitle = dialog.findViewById<TextView>(R.id.dialog_base_title_tv)
         tvTitle.text = title
 
-        btnOK = dialog.findViewById(R.id.dialog_wekit_v1_check_tv)
+        btnOK = dialog.findViewById(R.id.dialog_base_check_tv)
         btnOK.setOnClickListener {
 
             listener!!.onOKClicked()

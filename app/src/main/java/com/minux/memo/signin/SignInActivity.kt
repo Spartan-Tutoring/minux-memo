@@ -1,14 +1,15 @@
-package com.minux.memo.splash
+package com.minux.memo.signin
 
 import android.content.Intent
 import android.os.Bundle
+import android.view.View
 import com.minux.memo.BaseActivity
+import com.minux.memo.R
 import com.minux.memo.databinding.ActivitySplashBinding
-import com.minux.memo.signin.SignInActivity
 import java.util.*
 import kotlin.concurrent.schedule
 
-class SplashActivity : BaseActivity() {
+class SignInActivity : BaseActivity() {
     private lateinit var binding: ActivitySplashBinding
 
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -19,17 +20,7 @@ class SplashActivity : BaseActivity() {
         binding.splashAppNameTv.text = "TEST"
     }
 
-    override fun onResume() {
-        super.onResume()
 
-        Timer().schedule(3000){
-            startNextActivity(Intent(this@SplashActivity , SignInActivity::class.java))
-        }
-    }
 
-    private fun startNextActivity(intent: Intent){
-        startActivity(intent)
 
-        finish()
-    }
 }

@@ -4,7 +4,7 @@
     <string name="dialog_base_check">확인</string>
     <string name="dialog_base_cancel">취소</string>
 
-    <!--splash-->
-    <string name="splash_cd_logo_img">splash logo image</string>
+    <!-- slash -->
+    <string name="splash_logo_cd">logo image</string>
 
 </resources>
