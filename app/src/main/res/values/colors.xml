@@ -16,8 +16,19 @@
 
     <!--common-->
     <color name="primary">#FF96AE</color>
+    <color name="toolbar_bg">#fff</color>
+    <color name="toolbar_title">#000</color>
 
     <!--splash-->
     <color name="splash_bg">#9FDDD1</color>
     <color name="splash_app_name">#386895</color>
+
+    <!--signin-->
+    <color name="signin_signup">#386895</color>
+    <color name="signin_et_layout_border">#386895</color>
+    <color name="signin_et_layout_solid">#fff</color>
+
+    <!--signup-->
+    <color name="signup_join_btn_bg">#467FB5</color>
+    <color name="signup_join_btn_text">#FFF</color>
 </resources>
