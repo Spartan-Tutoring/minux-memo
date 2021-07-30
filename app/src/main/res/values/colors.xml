@@ -15,9 +15,11 @@
     <color name="dialog_base_border">#f1f1f1</color>
 
     <!--common-->
-    <color name="primary">#FF96AE</color>
+    <color name="primary">#9FDDD1</color>
     <color name="toolbar_bg">#fff</color>
     <color name="toolbar_title">#000</color>
+    <color name="app_name">#386895</color>
+    <color name="default_border">#DDD6D6</color>
 
     <!--splash-->
     <color name="splash_bg">#9FDDD1</color>
@@ -27,8 +29,28 @@
     <color name="signin_signup">#386895</color>
     <color name="signin_et_layout_border">#386895</color>
     <color name="signin_et_layout_solid">#fff</color>
+    <color name="signin_signin_btn_bg">#386895</color>
+    <color name="signin_signin_btn_text">#FFF</color>
+    <color name="signin_hint_text">#386895</color>
 
     <!--signup-->
-    <color name="signup_join_btn_bg">#467FB5</color>
+    <color name="signup_join_btn_bg">#386895</color>
     <color name="signup_join_btn_text">#FFF</color>
+
+    <!--main-->
+    <color name="main_hello">#72B1EC</color>
+    <color name="main_name">#386895</color>
+    <color name="main_tab_selected">#386895</color>
+    <color name="main_tab_unselected">#CFC9C9</color>
+
+    <!--memo-->
+    <color name="item_memo_title">#000</color>
+    <color name="item_memo_content">#DCD9D9</color>
+    <color name="item_memo_date">#000</color>
+    <color name="item_memo_border">#386895</color>
+
+    <!--write-->
+    <color name="write_done">#386895</color>
+    <color name="write_title">#000</color>
+    <color name="write_content">#000</color>
 </resources>

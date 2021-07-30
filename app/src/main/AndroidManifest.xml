@@ -22,7 +22,9 @@
         </activity>
 
         <activity android:name=".signin.SignInActivity"/>
+        <activity android:name=".signup.SignUpActivity"/>
         <activity android:name=".main.MainActivity"/>
+        <activity android:name=".write.WriteActivity"/>
     </application>
 
 </manifest>

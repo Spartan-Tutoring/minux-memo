@@ -11,6 +11,7 @@
     <string name="signin_id_hint">아이디</string>
     <string name="signin_password_hint">비밀번호</string>
     <string name="signin_signup">회원가입</string>
+    <string name="signin_signin">로그인</string>
 
     <!--signup-->
     <string name="signup">회원가입</string>
@@ -19,4 +20,14 @@
     <string name="signup_password_hint">비밀번호</string>
     <string name="signup_password_check_hint">비밀번호확인</string>
     <string name="signup_join">가입하기</string>
+
+    <!--main-->
+    <string name="main_hello">Hello,</string>
+    <string name="main_name">Name</string>
+
+    <!-- write -->
+    <string name="write">메모쓰기</string>
+    <string name="write_done">Done</string>
+    <string name="write_title_hint">제목</string>
+    <string name="write_content_hint">내용</string>
 </resources>
